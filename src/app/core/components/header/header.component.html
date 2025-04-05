@@ -1,0 +1,9 @@
+<header class="header">
+ <button
+  (click)="toggleTheme()"
+  class="theme-toggle"
+  aria-label="Toggle theme"
+ >
+  <i [class]="'pi ' + theme.getIcon()"></i>
+ </button>
+</header>
